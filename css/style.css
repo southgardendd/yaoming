@@ -79,32 +79,44 @@ h1,h2,p {
     gap: 75px;
 }
 
-.contractBox {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+.comingSoon {
+    height: 200px;
 }
 
-.contractBox p {
-    margin: 0px;
-    padding: 0px;
-}
-
-.contractHead {
+.comingSoon p {
     color: #7ED957;
+    font-family: 'Braah One', sans-serif; 
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
     text-shadow: 1px 1px 1px#000;
-    font-size: 40px;
-    line-height: 40px;
-    font-family: 'Noot Regular', sans-serif;
 }
 
-.contractAdress a{
-    font-size: 30px;
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+.soonAnimBox {
+    transition: all 0.5s ease;
+    animation: upndown 5s linear infinite;
+}
+
+.soonAnimBox:hover {
+    animation-play-state: paused;
+}
+
+@keyframes upndown {
+    0% {
+        margin-top: 0px;
+    }
+    25% {
+        margin-top: 50px;
+    }
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: 50px;
+    }
+    100% {
+        margin-top: 0px;
+    }
 }
 
 #about {
@@ -151,29 +163,6 @@ h1,h2,p {
     line-height: 50px;
 }
 
-.videoContainer {
-    padding: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 75px;
-}
-
-.videoBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.videoHeader {
-    font-size: 60px;
-    color: #7ED957;
-    text-shadow: 1px 1px 1px#000;
-    font-family: 'Noot Regular', sans-serif;
-}
 
 .aboutContainer {
     display: flex;
@@ -241,9 +230,96 @@ h1,h2,p {
     }
 }
 
+.ecosystemContainer {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.ecosystemBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1400px;
+}
+
+.ecosystemImg {
+    margin-bottom: 20px;
+}
+
+.ecosystemBox h3{
+    font-family: 'Noot Regular', sans-serif;
+    font-size: 75px;
+    line-height: 75px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.ecosystemBox p{
+    font-family: 'Braah One', sans-serif; 
+    font-size: 30px;
+    line-height: 40px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+    width: 400px;
+    text-align: center;
+}
+
+.ecoBenefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tokenomicsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.tokenomicsBox {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+}
+
+.tokenomicsContainer h2,h3{
+    font-family: 'Braah One', sans-serif; 
+    font-size: 75px;
+    line-height: 75px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.tokenomicsContainer p {
+    font-family: 'Braah One', sans-serif; 
+    font-size: 30px;
+    line-height: 40px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+    width: 600px;
+}
+
+.tokenomicsHeader p{
+    font-family: 'Noot Regular', sans-serif;
+    font-size: 150px;
+    line-height: 75px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.tokenomicsInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .faqContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 200px;
 }
 
@@ -258,7 +334,31 @@ h1,h2,p {
     color: #7ED957;
     text-shadow: 1px 1px 1px#000;
   }
-  
+
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .footerContainer a{
+    text-decoration: none;
+    font-family: 'Braah One', sans-serif; 
+    font-size: 30px;
+    line-height: 40px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.footerContainer a:hover {
+    opacity: 0.8;
+}
+
+.footerBox {
+    display: flex;
+    gap: 75px;
+    width: 1400px;
+}
   details{
     /* background-color: #ffffff; */
     color: #7ED957;
