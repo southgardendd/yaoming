@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image: url(../images/bg.webp);
+    background-attachment: fixed;
+    background-size: 100%;
+    /* background-repeat: initial; */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px 50px 200px;
+}
+
+h1,h2,p {
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer {
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    transition: all 0.5s ease;
+    animation: rotateLogo 5s linear infinite;
+}
+
+.logo:hover {
+    animation-play-state: paused;
+}
+
+@keyframes rotateLogo {
+    0% {
+      transform: rotate(0deg);
+      margin: 0;
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
+
+.headerContainer a{
+    color: #7ED957;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Noot Regular', sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.headerContainer a:hover {
+    opacity: 0.8;
+}
+
+.heroYaoContainer {
+    padding: 0px 200px 200px 200px;
+    /* margin: 0px 200px 100px 200px; */
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+
+.contractBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contractBox p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contractHead {
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Noot Regular', sans-serif;
+}
+
+.contractAdress a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+#about {
+    padding: 200px;
+}
+
+.tokenContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.tokenBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    gap: 50px;
+}
+
+.token {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+    font-family: 'Noot Regular', sans-serif;
+}
+
+
+.token p{
+    font-size: 30px;
+    font-family: 'Braah One', sans-serif;   
+}
+
+.token h1{
+    font-size: 150px;
+    line-height: 150px;
+    margin-bottom: 10px;
+}
+
+.token h2{
+    font-family: 'Braah One', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.videoContainer {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+
+.videoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.videoHeader {
+    font-size: 60px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+    font-family: 'Noot Regular', sans-serif;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    background-image: url(../images/token-bg.png);
+    background-clip: border-box;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.aboutBox {
+    display: flex;
+    max-width: 1400px;
+}
+
+.aboutMeme {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.aboutHeader h2{
+    font-family: 'Braah One', sans-serif;
+    font-size: 150px;
+    line-height: 50px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.aboutTextBox {
+    display: flex;
+    align-items: center;
+}
+
+.aboutTextBox p{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family: 'Braah One', sans-serif; 
+    line-height: 40px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+    word-spacing: 10px;
+}
+
+.yaolmfao {
+    transition: all 0.5s ease;
+    animation: rotate 5s linear infinite;
+}
+
+.yaolmfao:hover {
+    animation-play-state: paused;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(45deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+}
+
+.faqContainer {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.faqBox {
+    width: 1400px;
+}
+
+.faqBox h1{
+    font-family: 'Braah One', sans-serif;
+    font-size: 75px;
+    line-height: 50px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+  }
+  
+  details{
+    /* background-color: #ffffff; */
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+    font-family: 'Braah One', sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+  }
+
+  .summaryAnswer {
+    font-size: 25px
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      /* border-bottom: 1px solid #aaa; */
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: 0px 50px;
+  }
+
+@font-face {
+    font-family: "Noot Regular"; 
+    src: url("../fonts/Noot\ Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+   
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #7ED957;
+    outline: 1px solid #518b38;
+}
+
+::selection {
+    color: #aaaaaa;
+    background-color: rgb(255, 255, 255);
+} 
+
+.noselect {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+
+.button-52 {
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 3px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px#000;
+  font-family: 'Noot Regular', sans-serif
+}
+
+.button-52:after {
+  content: "";
+  background-color: #7ED957;
+  border-radius: 5px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.preloader {
+    transition: all 0.5s ease;
+    animation: rotate 1s linear infinite;
+}
+
+.done {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+}
+
+@keyframes preloaderrotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
