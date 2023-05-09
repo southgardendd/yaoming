@@ -79,6 +79,10 @@ h1,h2,p {
     gap: 75px;
 }
 
+.heroYao {
+    width: 1200px;
+}
+
 .comingSoon {
     height: 200px;
 }
@@ -295,6 +299,12 @@ h1,h2,p {
     width: 1400px;
 }
 
+.greatYao {
+    z-index: 99;
+    margin: 0px -35px -35px;
+    rotate: -20deg;
+}
+
 .tokenomicsContainer h2,h3{
     font-family: 'Braah One', sans-serif; 
     font-size: 75px;
@@ -370,6 +380,11 @@ h1,h2,p {
     gap: 75px;
     width: 1400px;
 }
+
+.announce {
+    display: none;
+}
+
   details{
     /* background-color: #ffffff; */
     color: #7ED957;
@@ -527,3 +542,163 @@ body::-webkit-scrollbar-thumb {
       transform: rotate(360deg);
     }
 }
+
+@media screen and (max-width: 1024px) {
+
+.allContent {
+    display: none;
+}
+
+.announce {
+    position: fixed;
+    display: flex;
+    padding-top: 250px;
+    font-size: 75px;
+    line-height: 50px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.headerContainer, .tokenBox, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+    width: 900px;
+}
+
+header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+    padding: 200px, 0px, 200px, 0px;
+}  
+
+.soonAnimBox {
+    width: 920px;
+}
+
+.heroYao {
+    width: 800px;
+}
+
+.basketHoop {
+    width: 350px;
+}
+
+.tokenBox {
+    flex-direction: column;
+}
+
+.tokenHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutTextBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.ecosystemBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 0;
+}
+
+.ecosystemContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tokenomicsInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.comingSoon p{
+    font-size: 75px;
+    line-height: 75px;
+}
+
+.tokenomicsHeader p{
+    font-size: 75px;
+}
+
+}
+
+@media screen and (max-width: 1440px) {
+    
+    .headerContainer, .tokenBox, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 1200px;
+    }
+    
+    header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }  
+    
+    .tokenomicsBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .soonAnimBox {
+        width: 920px;
+    }
+    
+    .heroYao {
+        width: 800px;
+    }
+    
+    .basketHoop {
+        width: 350px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ecosystemImgW {
+        width: 750px;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 150px;
+    }
+    
+    }
