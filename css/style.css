@@ -124,7 +124,8 @@ h1,h2,p {
 }
 
 #about {
-    padding: 200px;
+    /* padding: 200px; */
+    margin: 200px 0px 200px 0px;
 }
 
 .tokenContainer {
@@ -172,7 +173,8 @@ h1,h2,p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    /* padding: 200px; */
+    margin: 200px 0px 200px 0px;
     background-image: url(../images/token-bg.png);
     background-clip: border-box;
     background-size: 100%;
@@ -240,7 +242,8 @@ h1,h2,p {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding: 200px;
+    /* padding: 200px; */
+    margin: 200px 0px 200px 0px;
 }
 
 .ecosystemBox {
@@ -290,7 +293,8 @@ h1,h2,p {
 .tokenomicsContainer {
     display: flex;
     justify-content: center;
-    padding: 200px;
+    /* padding: 200px; */
+    margin: 200px 0px 200px 0px;
 }
 
 .tokenomicsBox {
@@ -337,11 +341,70 @@ h1,h2,p {
     align-items: center;
 }
 
+.roadmapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 200px; */
+    margin: 200px 0px 200px 0px;
+}
+
+.roadmapBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roadmapHeader h2 {
+    font-family: 'Braah One', sans-serif;
+    font-size: 75px;
+    line-height: 50px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
+.roadmapGifs {
+    width: 500px;
+}
+
+.roadmapPhases {
+    border: 1px #000 solid;
+    border-radius: 10px;
+    background: #ffffff60;
+    padding: 20px;
+}
+
+.roadmapContext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmapPhases ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.roadmapPhases li{
+    list-style: none;
+    font-family: 'Braah One', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    color: #7ED957;
+    text-shadow: 1px 1px 1px#000;
+}
+
 .faqContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    /* padding: 200px; */
+    margin: 200px 0px 200px 0px;
 }
 
 .faqBox {
@@ -359,7 +422,7 @@ h1,h2,p {
   .footerContainer {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 50px 0px 50px 0px;
   }
 
   .footerContainer a{
@@ -377,6 +440,7 @@ h1,h2,p {
 
 .footerBox {
     display: flex;
+    justify-content: center;
     gap: 75px;
     width: 1400px;
 }
@@ -543,88 +607,6 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width: 1024px) {
-
-.allContent {
-    display: none;
-}
-
-.announce {
-    position: fixed;
-    display: flex;
-    padding-top: 250px;
-    font-size: 75px;
-    line-height: 50px;
-    color: #7ED957;
-    text-shadow: 1px 1px 1px#000;
-}
-
-.headerContainer, .tokenBox, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
-    width: 900px;
-}
-
-header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
-    padding: 200px, 0px, 200px, 0px;
-}  
-
-.soonAnimBox {
-    width: 920px;
-}
-
-.heroYao {
-    width: 800px;
-}
-
-.basketHoop {
-    width: 350px;
-}
-
-.tokenBox {
-    flex-direction: column;
-}
-
-.tokenHead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.aboutTextBox {
-    display: flex;
-    flex-direction: column;
-}
-
-.ecosystemBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
-    padding: 0;
-}
-
-.ecosystemContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.tokenomicsInfo {
-    display: flex;
-    flex-direction: column;
-}
-
-.comingSoon p{
-    font-size: 75px;
-    line-height: 75px;
-}
-
-.tokenomicsHeader p{
-    font-size: 75px;
-}
-
-}
-
 @media screen and (max-width: 1440px) {
     
     .headerContainer, .tokenBox, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
@@ -700,5 +682,999 @@ header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokeno
     .tokenomicsHeader p{
         font-size: 150px;
     }
+
+    .yaolmfao {
+        width: 500px;
+    }
     
     }
+
+@media screen and (max-width: 1180px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 1180px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 50px;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .soonAnimBox {
+        width: 900px;
+    }
+
+    .comingSoon {
+        width: 700px;
+    }
+    
+    .heroYao {
+        width: 800px;
+    }
+    
+    .basketHoop {
+        width: 350px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        width: 700px;
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 1115px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 1024px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 30px;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .soonAnimBox {
+        width: 900px;
+    }
+
+    .comingSoon {
+        width: 700px;
+    }
+    
+    .heroYao {
+        width: 800px;
+    }
+    
+    .basketHoop {
+        width: 350px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        width: 700px;
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 950px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 30px;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .soonAnimBox {
+        width: 950px;
+    }
+
+    .comingSoon {
+        width: 950px;
+    }
+    
+    .heroYao {
+        width: 950px;
+    }
+    
+    .basketHoop {
+        width: 950px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        width: 950px;
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 930px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 880px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 30px;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .soonAnimBox {
+        width: 880px;
+    }
+
+    .comingSoon {
+        width: 880px;
+    }
+    
+    .heroYao {
+        width: 880px;
+    }
+    
+    .basketHoop {
+        width: 880px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        width: 880px;
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 820px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 820px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    footer a{
+        font-size: 20px;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .link a{
+        font-size: 20px;
+    }
+
+
+    .ecosystemImgW {
+        width: 400px;
+    }
+
+    .soonAnimBox {
+        width: 750px;
+    }
+
+    .comingSoon {
+        width: 750px;
+    }
+    
+    .heroYao {
+        width: 750px;
+    }
+    
+    .basketHoop {
+        width: 350px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        width: 700px;
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 768px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .link a{
+        font-size: 20px;
+    }
+
+    .ecosystemImgW {
+        width: 350px;
+    }
+
+    .soonAnimBox {
+        width: 700px;
+    }
+
+    .comingSoon {
+        width: 700px;
+    }
+    
+    .heroYao {
+        width: 700px;
+    }
+    
+    .basketHoop {
+        width: 350px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        width: 700px;
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 630px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox {
+        width: 600px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .link a{
+        font-size: 20px;
+    }
+
+    .ecosystemImgW {
+        width: 350px;
+    }
+
+    .soonAnimBox {
+        width: 600px;
+    }
+
+    .comingSoon {
+        width: 600px;
+    }
+    
+    .heroYao {
+        width: 600px;
+    }
+    
+    .basketHoop {
+        width: 350px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        width: 600px;
+        font-size: 75px;
+        line-height: 75px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 75px;
+    }
+
+    .yaolmfao {
+        width: 300px;
+    }
+
+    .aboutContainer {
+        background: none;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox, #about {
+        width: 414px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    header {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    header a{
+        display: none;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .link a{
+        font-size: 20px;
+    }
+
+    .ecosystemImgW {
+        width: 390px;
+    }
+
+    .soonAnimBox {
+        width: 390px;
+    }
+
+    .comingSoon{
+        width: 390px;
+    }
+    
+    .comingSoon p {
+        width: 390px;
+    }
+    
+    .heroYao {
+        width: 390px;
+    }
+    
+    .basketHoop {
+        width: 350px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+
+    .tokenHead h1{
+        font-size: 100px;
+    }
+
+    .tokenHead h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .tokenAbout {
+        width: 390px;
+    }
+
+    .tokenAbout p{
+        font-size: 20px;
+    }
+
+    .aboutText p{
+        font-size: 20px;
+    }
+    
+    .aboutHeader h2{
+        font-size: 50px;
+    }
+    
+    .bigCoin {
+        width: 350px;
+    }
+
+    .ecosystemDiscription p{
+        width: 350px;
+    }
+
+    .tokenomicsHeader p {
+        font-size: 50px;
+    }
+
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutText p{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .aboutContainer {
+        background: none;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+
+    .ecosystemTrue {
+        width: 390px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .ecosystemHeader h3{
+        font-size: 50px;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        /* width: 300px; */
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .yaolmfao {
+        width: 250px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 50px;
+        width: 390px;
+    }
+
+    .tokenomicsText {
+        width: 390px;
+    }
+
+    .tokenomicsDiscription {
+        width: 390px;
+    }
+
+    .tokenomicsDiscription p{
+        width: 390px;
+    }
+
+    .tokenSupply h2{
+        font-size: 50px;
+        width: 390px;
+    }
+
+    .tokenSupply h3{
+        font-size: 30px;
+        width: 390px;
+    }
+
+    .tokenomicsText p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .footerBox a{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .faqBox h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 390px) {
+    
+    header, .headerContainer, .heroYaoContainer, .tokenBox, .tokenContainer, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer, .aboutBox, .ecosystemBox, .tokenomicsBox, .faqBox, .footerBox, #about {
+        width: 390px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    header {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    header a{
+        display: none;
+    }
+    
+    /* header, .heroYaoContainer, #about, .aboutContainer, .ecosystemContainer, .tokenomicsContainer, .faqContainer {
+        padding: 200px, 0px, 200px, 0px;
+    }   */
+    
+    .link a{
+        font-size: 20px;
+    }
+
+    .ecosystemImgW {
+        width: 300px;
+    }
+
+    .soonAnimBox {
+        width: 300px;
+    }
+
+    .comingSoon{
+        width: 300px;
+    }
+    
+    .comingSoon p {
+        width: 300px;
+    }
+    
+    .heroYao {
+        width: 300px;
+    }
+    
+    .basketHoop {
+        width: 200px;
+    }
+    
+    .tokenBox {
+        flex-direction: column;
+    }
+    
+    .tokenHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+
+    .tokenHead h1{
+        font-size: 100px;
+    }
+
+    .tokenHead h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .tokenAbout {
+        width: 350px;
+    }
+
+    .tokenAbout p{
+        font-size: 20px;
+    }
+
+    .roadmapGifs {
+        /* display: none; */
+    }
+
+    .aboutText p{
+        font-size: 20px;
+    }
+    
+    .aboutHeader h2{
+        font-size: 50px;
+    }
+    
+    .bigCoin {
+        width: 300px;
+    }
+
+    .ecosystemDiscription p{
+        width: 350px;
+    }
+
+    .tokenomicsHeader p {
+        font-size: 50px;
+    }
+
+    .aboutTextBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutText p{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .aboutContainer {
+        background: none;
+    }
+    
+    .ecosystemBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 0;
+    }
+
+    .ecosystemTrue {
+        width: 350px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .ecosystemHeader h3{
+        font-size: 50px;
+    }
+    
+    .ecosystemContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tokenomicsInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comingSoon p{
+        /* width: 300px; */
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .yaolmfao {
+        width: 250px;
+    }
+
+    .roadmapPhases li{
+        font-size: 30px;
+    }
+    
+    .tokenomicsHeader p{
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        width: 350px;
+    }
+
+    .greatYao {
+        display: none;
+    }
+
+    .tokenomicsText {
+        width: 350px;
+    }
+
+    .tokenomicsDiscription {
+        width: 350px;
+    }
+
+    .tokenomicsDiscription p{
+        width: 350px;
+    }
+
+    .tokenSupply h2{
+        font-size: 50px;
+        line-height: 50px;
+        width: 350px;
+    }
+
+    .tokenSupply h3{
+        font-size: 30px;
+        line-height: 30px;
+        width: 350px;
+    }
+
+    .tokenomicsText p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .footerBox a{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .faqBox h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
